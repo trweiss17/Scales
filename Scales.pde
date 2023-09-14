@@ -1,6 +1,6 @@
 void setup(){
   size(500, 500);  
-  noLoop();
+  
 }
 void draw() {
   int y = -50;
@@ -25,7 +25,7 @@ void draw() {
 
 void scale(int x, int y, int r, int g, int b){
        
-       r = (int)(Math.random()*100);
+       r = (int)(Math.random()*110);
     
        fill(r,0,0);
        noStroke();
